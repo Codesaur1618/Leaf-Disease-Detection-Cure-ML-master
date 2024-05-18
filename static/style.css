@@ -1,0 +1,53 @@
+body {
+    background-image: url('/static/leaf_background.jpg'); /* Path to your background image */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
